@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --color-principal: #2E948A;
+    --color-secundaria: #FF4081;
+    --font-family-principal: 'Ubuntu', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    font-family: var(--font-family-principal);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-principal);
+    align-items: center;
+    padding: 0.7rem;
+    margin: auto;
+    font-size: 0.8rem;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div-logo-header {
+    display: flex;
+    background-color: var(--color-principal);
+    /* max-height: 3rem; */
+}
+
+.link-logo {
+    display: flex;
+    background-color: var(--color-principal);
+}
+
+.logo {
+    display: flex;
+    max-height: 3rem;
+    padding: 0.5rem;
+    margin: 0 0 0 1rem;
+    background-color: var(--color-principal);
+}
+
+.nav-list-header {
+    background-color: var(--color-principal);
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: var(--color-principal);
+}
+
+.item-list-header {
+    background-color: var(--color-principal);
+    margin: 0 0.3rem 0 0;
+}
+
+.link-list-header {
+    display: flex;
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: var(--color-principal);
+    color: #FFF;
+    font-weight: bold;
+    font-family: var(--font-family-principal);
+    margin: 0 0.25rem 0 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    margin: 0 1rem 5rem 1rem;
+    align-items: center;
+}
+
+.section-banner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 0 0 5rem;
+}
+
+.educacao-fianceira {
+    display: flex;
+    color: var(--color-principal);
+    margin: 1.5rem 1rem 0.2rem 5rem;
+    font-size: 1.9rem;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: var(--font-family-principal);
+}
+
+.vem-comigo {
+    display: flex;
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 1rem 8rem 0.2rem 5rem;
+    font-family: var(--font-family-principal);
+}
+
+.section-img-banner {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    margin: 0 0 0 1rem;
+}
+
+.img-section-banner {
+    display: flex;
+    margin: 3rem 8rem 5rem -1.2rem;
+}
+
+.mais-conteudos {
+    margin: 0 1rem 5rem 1rem;
+}
+
+.conteudos {
+    display: flex;
+}
+
+.section-quadrado-cinza {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadrado-cinza {
+    margin: 0 6.5rem 0.5rem 6.5rem;
+}
+
+.title-quadrado-mais-conteudo {
+    color: var(--color-secundaria);
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text-quadrado-mais-conteudo {
+    margin: 0.5rem 9rem 2rem 9rem;
+    font-size: 1.1rem;
+    font-family: var(--font-family-principal);
+}
+
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: var(--color-principal);
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    max-height: 4rem;
+    padding: 0.8rem;
+    margin: 0 0 0 1rem;
+    background-color: var(--color-principal);
+}
+
+.div-logo-footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: var(--color-principal);
+}
+
+.nav-list-footer {
+    display: flex;
+    background-color: var(--color-principal);
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-principal);
+    padding: 0.3rem;
+    margin: 0 1rem 0 0;
+    font-family: var(--font-family-principal);
+}
+
+.item-list-footer {
+    display: flex;
+    padding: 0.08rem;
+    margin: 0.08rem;
+    background-color: var(--color-principal);
+}
+
+.item-list-2 {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--color-principal);
+    color: #FFF;
+    max-height: 4rem;
+}
+
+.div-buttons-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 0 1.5rem 0 0rem;
+    background-color: var(--color-principal);
+    max-height: 4rem;
+}
+
+.buttons-footer {
+    display: flex;
+    background-color: var(--color-principal);
+    color: #FFF;
+    padding: 0 0.15em 0 0.1em;
+    margin: 0.15rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 4rem;
+    font-size: 0.9em;
+    font-family: var(--font-family-principal);
+    justify-content: space-evenly
+}

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --color-principal: #2E948A;
+    --color-secundaria: #FF4081;
+    --font-family-principal: 'Ubuntu', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    font-family: var(--font-family-principal);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-principal);
+    align-items: center;
+    padding: 0.7rem;
+    margin: auto;
+    font-size: 0.8rem;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div-logo-header {
+    display: flex;
+    background-color: var(--color-principal);
+    /* max-height: 3rem; */
+}
+
+.link-logo {
+    display: flex;
+    background-color: var(--color-principal);
+}
+
+.logo {
+    display: flex;
+    max-height: 3rem;
+    padding: 0.5rem;
+    margin: 0 0 0 1rem;
+    background-color: var(--color-principal);
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: var(--color-principal);
+}
+
+.item-list-header {
+    background-color: var(--color-principal);
+    margin: 0 0.3rem 0 0;
+}
+
+.link-list-header {
+    display: flex;
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: var(--color-principal);
+    color: #FFF;
+    font-weight: bold;
+    font-family: var(--font-family-principal);
+    margin: 0 0.25rem 0 0;
+}
+
+.intro {
+    display: flex;
+    margin-left: 14%;
+}
+
+.introducao h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FF4081;
+    margin-top: 120px;
+}
+
+.introducao p {
+    width: 80%;
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: 200;
+    align-items: flex-start;
+}
+
+.img-curso {
+    margin-top: 81px;
+    margin-right: 26.4%;
+}
+
+.background-cinza {
+    width: 100%;
+    height: 1235px;
+    background-color: #F7F7F7;
+    margin-top: 81px;
+}
+
+.aulas {
+    width: 86%;
+    height: 1235px;
+    background-color: #F7F7F7;
+    margin: auto;
+}
+
+.intro {
+    display: flex;
+    margin-left: 14%;
+}
+
+.introducao h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FF4081;
+    margin-top: 120px;
+}
+
+.introducao p {
+    width: 80%;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 200;
+    align-items: flex-start;
+}
+
+.img-curso {
+    margin-top: 81px;
+    margin-right: 26.4%;
+}
+
+.background-cinza {
+    width: 100%;
+    height: 2100px;
+    background-color: #F7F7F7;
+    margin-top: 81px;
+}
+
+.aula-1 {
+    background-color: #F7F7F7;
+    margin-left: 14%;
+    width: 86%;
+    height: 261px;
+    display: flex;
+}
+
+.play {
+    margin-top: 75px;
+    width: 460px;
+    height: 260px;
+}
+
+.introducao-aula-1 {
+    background-color: #F7F7F7;
+    margin-top: 75px;
+    margin-left: 76px;
+    font-size: 18px;
+}
+
+.introducao-aula-1 h3 {
+    background-color: #F7F7F7;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+    margin-bottom: 26px;
+}
+
+.introducao-aula-1 p {
+    background-color: #F7F7F7;
+    width: 65%;
+}
+
+.linha-divisoria {
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: 7%;
+    width: 86%;
+    height: 3px;
+    background-color: #C4C4C4;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: var(--color-principal);
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    max-height: 4rem;
+    padding: 0.8rem;
+    margin: 0 0 0 1rem;
+    background-color: var(--color-principal);
+}
+
+.div-logo-footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: var(--color-principal);
+}
+
+.nav-list-footer {
+    display: flex;
+    background-color: var(--color-principal);
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-principal);
+    padding: 0.3rem;
+    margin: 0 1rem 0 0;
+    font-family: var(--font-family-principal);
+}
+
+.item-list-footer {
+    display: flex;
+    padding: 0.08rem;
+    margin: 0.08rem;
+    background-color: var(--color-principal);
+}
+
+.item-list-2 {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--color-principal);
+    color: #FFF;
+    max-height: 4rem;
+}
+
+.div-buttons-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 0 1.5rem 0 0rem;
+    background-color: var(--color-principal);
+    max-height: 4rem;
+}
+
+.buttons-footer {
+    display: flex;
+    background-color: var(--color-principal);
+    color: #FFF;
+    padding: 0 0.15em 0 0.1em;
+    margin: 0.15rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 4rem;
+    font-size: 0.9em;
+    font-family: var(--font-family-principal);
+    justify-content: space-evenly
+}
+
+@media (max-width: 980px) {
+    .intro {
+        margin-left: 10%;
+        flex-direction: column;
+    }
+
+    .introducao h2 {
+        width: 86%;
+    }
+
+    .background-cinza {
+        height: 2800px;
+    }
+
+    .aula-1 {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .linha-divisoria {
+        margin-top: 600px;
+    }
+
+    .play {
+        margin-top: 150px;
+        width: 460px;
+        height: 260px;
+        margin-left: 10%;
+    }
+
+    .play video {
+        width: 460px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-curso img {
+        margin-right: 10px;
+        width: 300px;
+    }
+
+    .play video {
+        width: 100%;
+        height: 190px;
+    }
+
+    .play {
+        width: 99%;
+        height: 190px;
+        margin-left: 10%;
+    }
+
+    .introducao-aula-1 {
+        width: 80%;
+    }
+}
